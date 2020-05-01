@@ -1,0 +1,28 @@
+mixin header
+	-
+		const data = {
+			pages: [
+				{
+					title: 'Главная',
+					href: './index.html'
+				},
+				{
+					title: 'страница 2',
+					href: './page-2.html'
+				},
+				{
+					title: 'страница 3',
+					href: './page-3.html'
+				},
+			]
+		};
+		const { pages } = data;
+
+	header.header
+		h1 ИМТС МВД России
+		p Антивирус Касперского
+		nav
+			ul
+				each page in pages
+					li
+						a(href=page.href) #{page.title}

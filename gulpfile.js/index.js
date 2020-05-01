@@ -13,8 +13,8 @@ const { watch } = require('./tasks/watch');
 exports.clean = clean
 
 exports.default = exports.serve = gulp.series(
-  // clean,
-  // views,
+  clean,
+  views,
   svgSprite,
   styles,
   jsServe,

@@ -4,7 +4,7 @@ const DEST = 'dist'
 const config = {
   src: {
     root: `${SRC}`,
-    templates: `${SRC}/templates`,
+    templates: `${SRC}/templates/pages`,
     pug: `${SRC}/templates/**/*.pug`,
     styles: `${SRC}/styles`,
     scss: `${SRC}/styles/**/*.{sass,scss}`,
@@ -15,7 +15,7 @@ const config = {
   dest: {
     root: `${DEST}`,
     templates: `${DEST}`,
-    styles: `${DEST}`,
+    styles: `${DEST}/css`,
     js: `${DEST}/js`,
     images: `${DEST}/img`,
   },
