@@ -1,0 +1,17 @@
+*.sublime*
+.idea
+.vscode
+.tmp
+.sass-cache
+dist
+yarn-error.log
+
+node_modules
+_sprite.scss
+
+*.7z
+*.zip
+*.rar
+*.map
+*.cmd
+*.todo
